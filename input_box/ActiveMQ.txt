@@ -1,0 +1,18 @@
+download ActiveMQ from : https://activemq.apache.org/components/classic/download/
+
+then go to bin folder and open command line:
+then write (activemq start) to run it 
+then the port will appear and can access it by browser
+http://127.0.0.1:8161/
+http://localhost:8161/
+
+the username and password is admin.
+
+then add dependence to pom file 
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-camel -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-camel</artifactId>
+    <version>5.16.3</version>
+</dependency>
+
